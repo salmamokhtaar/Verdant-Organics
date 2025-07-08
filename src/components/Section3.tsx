@@ -22,13 +22,19 @@ export default function Section2() {
 
         {/* Product List */}
         <div className="space-y-6">
-          
+
           {/* Product 1 */}
-          <div 
-            className="flex items-center bg-gray-50 rounded-lg p-6 hover:bg-gray-100 transition-colors duration-300"
+          <div
+            className="
+              flex flex-col md:flex-row 
+              items-center 
+              bg-gray-50 rounded-lg p-6 
+              hover:bg-gray-100 transition-colors duration-300
+              space-y-4 md:space-y-0 md:space-x-6
+            "
             data-aos="fade-right"
           >
-            <div className="w-24 h-24 bg-white rounded-lg flex items-center justify-center mr-6">
+            <div className="w-24 h-24 bg-white rounded-lg flex items-center justify-center">
               <Image
                 src={f4}
                 alt="Green Lemon Orange Juice"
@@ -36,32 +42,40 @@ export default function Section2() {
                 height={80}
               />
             </div>
-            
-            <div className="flex-1">
+            <div className="flex-1 text-center md:text-left">
               <span className="text-[#80B600] text-sm font-semibold">Special Offer</span>
               <h3 className="text-xl font-bold text-gray-800 mt-1">Green Lemon Orange Juice</h3>
               <p className="text-gray-600 text-sm">Best orange flavor you never miss</p>
             </div>
-            
-            <div className="text-right mr-6">
+            <div className="text-center md:text-right mt-4 md:mt-0 md:mr-6">
               <div className="text-2xl font-bold text-[#80B600]">$24.99</div>
               <div className="text-gray-400 line-through text-sm">$34.99</div>
             </div>
-            
             <Link
               href="/shop"
-              className="bg-[#80B600] text-white px-6 py-2 rounded-lg font-medium hover:bg-[#6a9900] transition-colors duration-300"
+              className="
+                bg-[#80B600] text-white 
+                px-6 py-2 rounded-lg font-medium 
+                hover:bg-[#6a9900] transition-colors duration-300
+                mt-4 md:mt-0
+              "
             >
               Add to Cart
             </Link>
           </div>
 
           {/* Product 2 */}
-          <div 
-            className="flex items-center bg-gray-50 rounded-lg p-6 hover:bg-gray-100 transition-colors duration-300"
+          <div
+            className="
+              flex flex-col md:flex-row 
+              items-center 
+              bg-gray-50 rounded-lg p-6 
+              hover:bg-gray-100 transition-colors duration-300
+              space-y-4 md:space-y-0 md:space-x-6
+            "
             data-aos="fade-left"
           >
-            <div className="w-24 h-24 bg-white rounded-lg flex items-center justify-center mr-6">
+            <div className="w-24 h-24 bg-white rounded-lg flex items-center justify-center">
               <Image
                 src={f5}
                 alt="Fresh Almond Seeds"
@@ -69,31 +83,39 @@ export default function Section2() {
                 height={80}
               />
             </div>
-            
-            <div className="flex-1">
+            <div className="flex-1 text-center md:text-left">
               <span className="text-orange-500 text-sm font-semibold">Limited Time</span>
               <h3 className="text-xl font-bold text-gray-800 mt-1">Fresh Almond Seeds</h3>
               <p className="text-gray-600 text-sm">Up to 15% off premium quality</p>
             </div>
-            
-            <div className="text-right mr-6">
+            <div className="text-center md:text-right mt-4 md:mt-0 md:mr-6">
               <div className="text-2xl font-bold text-[#80B600]">$69.99</div>
             </div>
-            
             <Link
               href="/shop"
-              className="bg-[#80B600] text-white px-6 py-2 rounded-lg font-medium hover:bg-[#6a9900] transition-colors duration-300"
+              className="
+                bg-[#80B600] text-white 
+                px-6 py-2 rounded-lg font-medium 
+                hover:bg-[#6a9900] transition-colors duration-300
+                mt-4 md:mt-0
+              "
             >
               Add to Cart
             </Link>
           </div>
 
           {/* Product 3 */}
-          <div 
-            className="flex items-center bg-gray-50 rounded-lg p-6 hover:bg-gray-100 transition-colors duration-300"
+          <div
+            className="
+              flex flex-col md:flex-row 
+              items-center 
+              bg-gray-50 rounded-lg p-6 
+              hover:bg-gray-100 transition-colors duration-300
+              space-y-4 md:space-y-0 md:space-x-6
+            "
             data-aos="fade-right"
           >
-            <div className="w-24 h-24 bg-white rounded-lg flex items-center justify-center mr-6">
+            <div className="w-24 h-24 bg-white rounded-lg flex items-center justify-center">
               <Image
                 src={f6}
                 alt="Fresh Mango Drinks"
@@ -101,25 +123,28 @@ export default function Section2() {
                 height={80}
               />
             </div>
-            
-            <div className="flex-1">
+            <div className="flex-1 text-center md:text-left">
               <span className="text-red-500 text-sm font-semibold">Special Deal</span>
               <h3 className="text-xl font-bold text-gray-800 mt-1">Fresh Mango Drinks</h3>
               <p className="text-gray-600 text-sm">Up to 50% off tropical flavor</p>
             </div>
-            
-            <div className="text-right mr-6">
+            <div className="text-center md:text-right mt-4 md:mt-0 md:mr-6">
               <div className="text-2xl font-bold text-[#80B600]">$19.99</div>
               <div className="text-gray-400 line-through text-sm">$39.99</div>
             </div>
-            
             <Link
               href="/shop"
-              className="bg-[#80B600] text-white px-6 py-2 rounded-lg font-medium hover:bg-[#6a9900] transition-colors duration-300"
+              className="
+                bg-[#80B600] text-white 
+                px-6 py-2 rounded-lg font-medium 
+                hover:bg-[#6a9900] transition-colors duration-300
+                mt-4 md:mt-0
+              "
             >
               Add to Cart
             </Link>
           </div>
+
         </div>
       </div>
     </section>
